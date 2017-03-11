@@ -11,5 +11,5 @@ The java files are as follows
 * Tennis.java - Implementation for a tennis scoring game (also extends SportsGame).  Tennis has some unique qualities; you can see in this that several methods have been overriden.  This is also a game where the score dictates the end of a game so the user doesn't need to manually progress the game along.
 * Golf.java - Implementation for golf (yea you know.. extends SportsGame)
 * SportsGameUI.java - Abstract class to support the user input needed to score a game (i.e. the prompts)
-* EnterPointsUI.java - Contract implementation to support games where the user enters the score (like football) it extends SportsGameUI
+* EnterPointsUI.java - Concrete implementation to support games where the user enters the score (like football) it extends SportsGameUI
 * NoPointsUI.java - Implementation of a game where user doesn't supply score, they just specify the team and it increases the score for that game by 1 (also extends SportsGameUI).
